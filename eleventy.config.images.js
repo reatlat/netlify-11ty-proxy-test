@@ -42,6 +42,8 @@ module.exports = function(eleventyConfig) {
 		let imageAttributes = {
 			alt,
 			sizes,
+			urlPath: "/aa-updates/img/",
+			outputDir: "aa-updates/img/",
 			loading: "lazy",
 			decoding: "async",
 		};
